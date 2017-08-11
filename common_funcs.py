@@ -7,6 +7,9 @@ from tqdm import tqdm
 def load_mnist(normalize=True, flatten=True, one_hot_label=False):
     """MNISTデータセットの読み込み
 
+
+
+
     Parameters
     ----------
     normalize : 画像のピクセル値を0.0~1.0に正規化する
